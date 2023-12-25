@@ -1,0 +1,14 @@
+<Project>
+  <PropertyGroup>
+    <TargetFrameworks>net7.0</TargetFrameworks>
+    <Product>B2R2.FScript</Product>
+    <Authors>SoftSec Lab. @ KAIST</Authors>
+    <Company>SoftSec Lab. @ KAIST</Company>
+    <VersionPrefix>0.1.0</VersionPrefix>
+    <VersionSuffix></VersionSuffix>
+    <Copyright>Copyright (c) SoftSec Lab. @ KAIST, since 2016</Copyright>
+    <RepositoryUrl>https://github.com/B2R2-org/FScript</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>shell;script</PackageTags>
+  </PropertyGroup>
+</Project>

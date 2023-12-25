@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{45E4CA4A-0723-45FD-BB43-B49134376A8D}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "B2R2.FScript", "src\FScript\B2R2.FScript.fsproj", "{6245DC22-B464-46A6-AF7D-A87CF16785D4}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "B2R2.FScript.Demo", "src\FScript.Demo\B2R2.FScript.Demo.fsproj", "{7B1E3620-C2BC-4F3B-BA79-A05714C23164}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6245DC22-B464-46A6-AF7D-A87CF16785D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6245DC22-B464-46A6-AF7D-A87CF16785D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6245DC22-B464-46A6-AF7D-A87CF16785D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6245DC22-B464-46A6-AF7D-A87CF16785D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B1E3620-C2BC-4F3B-BA79-A05714C23164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B1E3620-C2BC-4F3B-BA79-A05714C23164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B1E3620-C2BC-4F3B-BA79-A05714C23164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B1E3620-C2BC-4F3B-BA79-A05714C23164}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6245DC22-B464-46A6-AF7D-A87CF16785D4} = {45E4CA4A-0723-45FD-BB43-B49134376A8D}
+		{7B1E3620-C2BC-4F3B-BA79-A05714C23164} = {45E4CA4A-0723-45FD-BB43-B49134376A8D}
+	EndGlobalSection
+EndGlobal

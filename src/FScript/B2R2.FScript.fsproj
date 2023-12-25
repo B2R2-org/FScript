@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <PackageIcon>fscript-icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Command.fs" />
+    <Compile Include="TaskQueue.fs" />
+    <None Include="..\..\LICENSE.md" Pack="true" PackagePath="" />
+    <None Include="..\..\assets\fscript-icon.png" Pack="true" PackagePath="" />
+    <None Include="README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+</Project>
