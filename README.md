@@ -61,4 +61,21 @@ last command by accessing the `ExitCode` property of the command instance.
 FScript provides a way to run multiple commands in parallel. To do so, you first
 instantiates a `TaskQueue` instance and then add commands to the queue. It will
 automatically consume the commands and run them in parallel by maximizing the
-number of cores on your machine.
+number of cores on your machine. For example, the following script will run
+`sha1sum` on all files in the current directory:
+
+```fsharp
+#!/usr/bin/env -S dotnet fsi
+#r "nuget: B2R2.FScript"
+
+open B2R2.FScript
+open System
+open System.IO
+
+let queue = TaskQueue ()
+Directory.EnumerateFiles (".", "*", SearchOption.AllDirectories)
+|> Seq.iter (fun f -> queue.AddTask <| !"sha1sum" [f])
+queue.Wait ()
+queue.Outputs
+|> Array.iter (fun log -> Console.Write $"{log.CmdLine} -> {log.OutLog}")
+```
